@@ -1,0 +1,6 @@
+spring.application.name: user-clicks-per-region
+spring.cloud.stream.bindings.process_in_0:
+  destination: numbers
+spring.cloud.stream.bindings.process_out:
+  destination: squaredNumbers
+
